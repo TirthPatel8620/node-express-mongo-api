@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
-var dbUserName = 'TonyStark';
-var dbUserPassword = 'SRJ6bVz1bvHGremX';
+var dbUserName = '';
+var dbUserPassword = '';
 var clusterName = "";
-var dbName = 'casacraze';
+var dbName = '';
 
-const dbconnecturl = "mongodb+srv://" + dbUserName + ":" + dbUserPassword + "@tirthmongo.y0v3u2p.mongodb.net/" + dbName + "?retryWrites=true&w=majority";
+const dbconnecturl = "";//add your db url 
 
 mongoose.connect(dbconnecturl, {
     useNewUrlParser: true,
