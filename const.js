@@ -1,2 +1,2 @@
-const ip = 'https://49.34.138.178/';
+const ip = '';//ip address of the device for cross paltform operation
 module.exports = ip;
